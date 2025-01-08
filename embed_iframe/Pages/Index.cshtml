@@ -1,0 +1,25 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Def Leppard</h1>
+    <h3>Die Hard the Hunter(In the Round, in Your Face Tour) Live Denver, Colorado</h3>
+    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<p><button onclick="move()">Click Here!</button></p>
+
+<div id="container">
+    <div id="frame">
+        <iframe class="player"
+                src="https://www.youtube.com/embed/NGxHQG2TMLc?si=WrzVkVJtvvo6UZk1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+</div>
+
