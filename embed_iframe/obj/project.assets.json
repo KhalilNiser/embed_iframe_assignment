@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\embed_iframe\\embed_iframe.csproj",
+      "projectUniqueName": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\ChatBot\\embed_iframe\\embed_iframe.csproj",
       "projectName": "embed_iframe",
-      "projectPath": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\embed_iframe\\embed_iframe.csproj",
+      "projectPath": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\ChatBot\\embed_iframe\\embed_iframe.csproj",
       "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\embed_iframe\\obj\\",
+      "outputPath": "C:\\Users\\Administrator\\source\\repos\\embed_iframe_assignment\\ChatBot\\embed_iframe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
