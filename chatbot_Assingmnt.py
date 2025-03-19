@@ -1,10 +1,6 @@
 
 # ---- IMPORT_REQUIRED_LIBRARIES ----
 import random
-from flask import Flask, request, jsonify, render_template 
-
-
-app = Flask(__name__)
 
 
 
@@ -48,7 +44,7 @@ class VRChatbot:
         
         
         
-    # ---- INITIALIZING THE RESPOND METHOD ----
+     # ---- INITIALIZING THE RESPOND METHOD ----
     # This function takes-in "user_input" as a String. and determines 
     # the appropriate response
     def respond(self, user_input):
@@ -73,39 +69,16 @@ class VRChatbot:
         else:
             return "I'm here to assist you. Can you please, clarify your request?"
         
-# Example: usage
+        
+        
+        
+# ---- EXAMPLE: USAGE ----
 chatbot = VRChatbot()
-
-
-@app.route('/')
-def home():
-    return render_template("index.html")
-
-
-@app.route('/chat', methods=['POST'])
-
-def chat():
-    user_message = request.json.get("message")
-    bot_response = chatbot.respond(user_message)
-    return jsonify({"response": bot_response})
-
-
-if __name__ == '__main__':
-    app.run(debug=True)
-    
-    
-    
-    
-    
-    
-    
-    
-    
 # Should greet the user with a random greeting response
-# print(chatbot.respond("Hello"))
+print(chatbot.respond("Hello"))
 # Should say goodbye with a random farewell response
-# print(chatbot.respond("end chat"))
+print(chatbot.respond("end chat"))
 # Should provide help responses
-# print(chatbot.respond("help"))
+print(chatbot.respond("help"))
 # Should provide info responses
-# print(chatbot.respond("what can you do"))
+print(chatbot.respond("what can you do"))

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("embed_iframe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+234127da788d5907b025bc71846f5f92403a9736")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a98117f1fed36434947e05919dcda37a87c7b58e")]
 [assembly: System.Reflection.AssemblyProductAttribute("embed_iframe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("embed_iframe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
